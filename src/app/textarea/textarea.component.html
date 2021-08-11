@@ -1,0 +1,8 @@
+<textarea [rows]="rows"
+          #input
+          [minLength]="minLength"
+          [maxLength]="maxLength"
+          [disabled]="disabled"
+          [readonly]="readonly"
+          (input)="setValue($event)">
+</textarea>

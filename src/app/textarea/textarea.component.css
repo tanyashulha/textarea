@@ -1,0 +1,25 @@
+:host {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+:host.ng-invalid {
+  border: 1px solid color(alert);
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  resize: none;
+  font-size: rem(13);
+  font-weight: 500;
+}
+
+textarea[disabled] {
+  opacity: 0.5;
+}
